@@ -1,0 +1,276 @@
+#container{
+    width:100%;
+    height:100%;
+    }
+    #header{
+    background-color: red;
+    width:100%;
+    height:50px;
+    }
+    #content{
+    width:100%;
+    background-color: rgb(188, 188, 193);
+    height:calc(100% - 110px);
+    }
+    #footer{
+    width:100%;
+    background-color: red;
+    height:40px;
+    }
+    
+    #header .logo{
+        width:30px;
+        top:20px;
+        margin-left:10px;
+        position:relative;
+        float:left;
+    }
+    #header .logotext{
+        position: relative;
+        top:20px;
+        float:left;
+        margin-left:10px;
+        font-size:18px;
+        font-weight:bold;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    }
+    #header .logotext span{
+        color:white;
+    }
+    #header .signinlabel{
+        position: relative;
+        top:20px;
+        float:right;
+        margin-right:10px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size:18px;
+        font-weight: bold;
+       cursor: pointer;
+    }
+    #header .signinlabel:hover{
+      text-decoration: underline;
+    }
+
+    #header .signinlogo{
+        width:30px;
+        position:relative;
+        float:right;
+        margin-right: 10px;
+        top:15px;
+        cursor: pointer;
+    }
+
+
+
+    #header .signinlabel:hover
+       {
+      text-decoration: underline;
+    }
+    #header .signinlogo:hover 
+    {
+   text-decoration: underline;
+   border-bottom: 2px solid black;
+ }
+    #footer .reserve
+    {
+        position:relative;
+        top:10px;
+        float:left;
+        font-size:10px;
+        margin-left:10px;
+    }
+    #footer .imgicon{
+        position:relative;
+        width:20px;
+        float:right;
+        top:10px;
+        margin-right:10px;
+    }
+    #content .label1{
+        position:relative;
+        top:5px;
+        margin-left:10px;
+        font-size:12px;
+        font-weight:bold;
+        color:blue;
+    }
+    #content .label2{
+        position: relative;
+        top:5px;
+        margin-left: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        color:lightblue;
+    }
+    #content .label3{
+        position:relative;
+        top:5px;
+        margin-left:10px;
+        font-size:10px;
+        font-weight:bold;
+
+    }
+ 
+
+        #content .searchbar{
+            position: relative;
+            top: 70px;
+            margin-left: 10px;
+            background: white;
+            border-radius: 15px;
+            width: 700px;
+            height: 40px;
+            padding: 10px;
+            display: block;
+  
+          }
+          .searchbar .text1{
+            width: 300px;
+            height: 40px;
+            border: none;
+            border-right: 2px solid silver;
+            font-size: 12pt;
+            background: url('/searchicon.png') no-repeat;
+            background-size: 40px 30px;
+            padding-left: 40px;
+            background-position: 0px center;
+          }
+          .searchbar .text2{
+            width: 220px;
+            height: 40px;
+            border: none;
+            font-size: 12pt;
+            background: url('/location.png') no-repeat;
+            background-size: 30px 25px;
+            padding-left: 30px;
+            background-position: 0px center;
+          }
+          .searchbar .button1{
+            width: 100px;
+            height: 40px;
+            background: green;
+            color: white;
+            font-weight: bold;
+            border-radius: 5px;
+            border: none;
+          }
+   
+#popup{
+  width:100%;
+  height:100%;
+  background:rgb(0,0,0,0.30);
+  position:fixed;
+  z-index:1000;
+  display: none;
+}
+#popupwindow{
+  width:300px;
+  height:450px;
+  background-color: white;
+  position:relative;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border-radius: 5px;
+}
+#popupwindow #login{
+  width:100%;
+  height:60px;
+  background:lightblue;
+  font-size: 18px;
+  font-weight: bold;
+  text-align:center;
+  line-height: 50px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+#signin{
+  width:calc(100% - 10px);
+  height:calc(100% - 60px);
+  background:white;
+  padding:5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+#username{
+  display:block;
+  padding:10px 0px 2px 0px;
+}
+input{
+  width:calc(100% - 10px);
+  height:30px;
+  border-radius: 5px;
+  border:1px solid red;
+}
+#password{
+  display:block;
+  padding:10px 0px 2px 0px;
+}
+#forget{
+  display:block;
+  text-align:right;
+}
+#forget span{
+  color:green;
+  cursor:pointer;
+}
+#forget span:hover{
+  color:lightgreen;
+}
+#submit{
+  width:100%;
+  height:30px;
+  background:green;
+  border-radius: 5px;
+  color:white;
+  font-size: 16px;
+  font-weight:bold;
+  cursor: pointer;
+}
+#submit:hover{
+  background: lightgreen;
+}
+#div1{
+  height:30px;
+}
+#div2{
+text-align: center;
+font-size:10px;
+}
+#div2 span{
+height:25px;
+display:block;
+font-size:14px;
+font-weight:bold;
+color:green;
+cursor:pointer;
+}
+#div2 span:hover{
+  color:lightgreen;
+}
+#signup{
+  width:calc(100% - 10px);
+  height:calc(100% - 60px);
+  background:white;
+  padding:5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#signup label{
+  display:block;
+  padding:10px 0px 2px 0px;
+}
+
+#signup #role
+{
+  width:calc(100% - 10px);
+  height:30px;
+  border-radius: 5px;
+  border:1px solid red;
+}
+span:hover{
+  color:lightgreen;
+}
